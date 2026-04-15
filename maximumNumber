@@ -1,0 +1,7 @@
+a=[2,4,7,6]
+n=len(a)
+max=0
+for i in range(n):
+    if a[i]>=max:
+        max=a[i]
+print(max)
